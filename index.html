@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#1a3325">
+<title data-i18n="meta.title">KORU ONE Korea — B2B 도매 수입 · 자가급수 스마트 화분</title>
+<meta name="description" data-i18n="meta.desc" content="KORU ONE 한국 정식 B2B 도매. 자가급수 + AI 공기정화 화분. 홍콩 직배송, 800개 한정 재고.">
+<meta name="keywords" content="KORU, KORU ONE, 자가급수 화분, 스마트 화분, 공기청정기, B2B 도매, 홍콩 수입">
+<meta name="author" content="KORU Korea">
+<meta name="robots" content="index, follow">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="KORU ONE Korea — B2B Wholesale">
+<meta property="og:description" content="Self-watering smart planter + AI air purifier. B2B wholesale from Hong Kong.">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="zh_CN">
+
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Noto+Sans+SC:wght@400;500;700;900&family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#top" class="logo">
+      <span class="logo-mark">K</span>
+      <span class="logo-text">KORU<small>Korea · B2B Wholesale</small></span>
+    </a>
+    <nav class="nav-menu" id="navMenu">
+      <a href="#product" data-i18n="nav.product">Product</a>
+      <a href="#features" data-i18n="nav.features">Features</a>
+      <a href="#manual" data-i18n="nav.manual">How to Use</a>
+      <a href="#specs" data-i18n="nav.specs">Specs</a>
+      <a href="#inquiry" data-i18n="nav.inquiry">Inquiry</a>
+    </nav>
+    <div class="lang-wrap">
+      <svg class="lang-ico" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+        <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/>
+        <ellipse cx="12" cy="12" rx="9" ry="4" fill="none" stroke="currentColor" stroke-width="1.4"/>
+        <line x1="12" y1="3" x2="12" y2="21" stroke="currentColor" stroke-width="1.4"/>
+        <path d="M 3.5 9 Q 12 6 20.5 9 M 3.5 15 Q 12 18 20.5 15" fill="none" stroke="currentColor" stroke-width="1.2"/>
+      </svg>
+      <select class="lang-select" id="langSelect" aria-label="Language">
+        <option value="ko">한국어</option>
+        <option value="en">English</option>
+        <option value="zh">中文</option>
+      </select>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <div class="brand-tag" data-i18n="hero.tag">K O R U &nbsp; O N E &nbsp; · &nbsp; K O R E A</div>
+        <h1>
+          <span data-i18n="hero.title1">식물이 만드는</span><br>
+          <span class="green" data-i18n="hero.title2">가장 우아한 공기청정기</span>
+        </h1>
+        <p class="hero-sub" data-i18n="hero.sub">자가급수 스마트 화분 + AI 공기 정화 시스템<br>홍콩 직수입 B2B 도매 · 800개 한정 재고</p>
+        <div class="hero-stats">
+          <div><strong>99%</strong><span data-i18n="hero.s1">박테리아 제거</span></div>
+          <div><strong>93%</strong><span data-i18n="hero.s2">VOC 제거</span></div>
+          <div><strong>150+</strong><span data-i18n="hero.s3">호환 식물</span></div>
+        </div>
+        <div class="hero-cta">
+          <a href="#inquiry" class="btn btn-primary" data-i18n="hero.cta1">도매 문의하기</a>
+          <a href="#manual" class="btn btn-ghost" data-i18n="hero.cta2">사용 방법 보기</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="koru-illust">
+          <!-- KORU pot SVG illustration -->
+          <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+            <!-- plant leaves -->
+            <g class="leaves">
+              <path d="M200 250 Q160 180 140 100 Q150 90 175 110 Q200 180 200 250 Z" fill="#3d6e4a"/>
+              <path d="M200 250 Q240 170 270 90 Q280 80 290 110 Q260 190 200 250 Z" fill="#4a8059"/>
+              <path d="M200 250 Q180 180 130 130 Q120 140 135 165 Q170 220 200 250 Z" fill="#5a9269"/>
+              <path d="M200 250 Q220 170 280 130 Q295 140 280 170 Q240 220 200 250 Z" fill="#3d6e4a"/>
+              <path d="M200 250 Q200 170 200 80 Q210 75 215 105 Q210 180 200 250 Z" fill="#4a8059"/>
+              <!-- stem -->
+              <path d="M195 250 L195 260 M205 250 L205 260" stroke="#2a4a30" stroke-width="3"/>
+            </g>
+            <!-- glass pot upper -->
+            <path d="M120 260 L120 380 Q120 410 150 415 L250 415 Q280 410 280 380 L280 260 Z"
+                  fill="rgba(220,235,225,0.4)" stroke="#1a3325" stroke-width="2"/>
+            <!-- water level -->
+            <rect x="125" y="350" width="150" height="60" fill="rgba(158,196,168,0.3)" rx="2"/>
+            <!-- soil -->
+            <ellipse cx="200" cy="265" rx="78" ry="8" fill="#6b4a30"/>
+            <rect x="125" y="265" width="150" height="20" fill="#7a5538"/>
+            <!-- watering nozzle -->
+            <rect x="170" y="320" width="60" height="20" fill="#fff" stroke="#1a3325" stroke-width="1.5" rx="2"/>
+            <line x1="180" y1="340" x2="180" y2="360" stroke="#1a3325" stroke-width="1.5"/>
+            <line x1="200" y1="340" x2="200" y2="365" stroke="#1a3325" stroke-width="1.5"/>
+            <line x1="220" y1="340" x2="220" y2="358" stroke="#1a3325" stroke-width="1.5"/>
+            <!-- cork base -->
+            <path d="M130 415 L270 415 Q290 415 290 435 L290 460 Q290 480 270 480 L130 480 Q110 480 110 460 L110 435 Q110 415 130 415 Z"
+                  fill="#c4956a"/>
+            <ellipse cx="200" cy="430" rx="80" ry="6" fill="#a87a52" opacity="0.4"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- B2B STRIP -->
+<section class="strip">
+  <div class="container">
+    <div class="strip-grid">
+      <div><span class="ic">🇭🇰</span><strong data-i18n="strip.s1">홍콩 직배송</strong><small data-i18n="strip.s1d">3-7 영업일</small></div>
+      <div><span class="ic">📦</span><strong data-i18n="strip.s2">B2B 도매 전용</strong><small data-i18n="strip.s2d">최소 주문 협의</small></div>
+      <div><span class="ic">🛡️</span><strong data-i18n="strip.s3">3년 품질보증</strong><small data-i18n="strip.s3d">정식 수입</small></div>
+      <div><span class="ic">⚡</span><strong data-i18n="strip.s4">800개 한정</strong><small data-i18n="strip.s4d">매진 시 종료</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT INTRO -->
+<section class="section" id="product">
+  <div class="container">
+    <div class="section-head">
+      <span class="num">01</span>
+      <h2 data-i18n="product.h">자연과 기술이 만나는 지점</h2>
+      <p data-i18n="product.lead">KORU ONE은 살아있는 식물과 광촉매 산화(PCO) 기술이 결합된 차세대 공기정화 시스템입니다. 일반 공기청정기와 다르게 인테리어 오브제로 완벽한 역할을 합니다.</p>
+    </div>
+    <div class="product-grid">
+      <div class="p-card">
+        <h3 data-i18n="product.c1h">자연 친화적 공기정화</h3>
+        <p data-i18n="product.c1p">광촉매 산화(PCO) + 활성탄 필터 + 식물의 자연 정화 작용으로 박테리아 99%, VOC 93%를 제거합니다. 0.01 미크론 미세입자까지 분해.</p>
+      </div>
+      <div class="p-card">
+        <h3 data-i18n="product.c2h">4-6주 자동 급수</h3>
+        <p data-i18n="product.c2p">2.7L 대용량 물탱크. 한 번 물을 채우면 4-6주간 식물에 자동 급수. 출장·휴가 시 화분 관리 걱정 없음.</p>
+      </div>
+      <div class="p-card">
+        <h3 data-i18n="product.c3h">스마트 앱 모니터링</h3>
+        <p data-i18n="product.c3p">토양·빛·공기질·온도·습도 5종 센서가 실시간 모니터링. iOS/Android 전용 앱이 식물 종류에 맞춰 자동 관리.</p>
+      </div>
+      <div class="p-card">
+        <h3 data-i18n="product.c4h">필터 영구 사용</h3>
+        <p data-i18n="product.c4p">티타늄 나노코팅 세라믹폼 필터는 교체 불필요. 2-3개월에 한 번 물 세척만 하면 됩니다. 구독료·교체비 0원.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES NUMBERS -->
+<section class="section dark" id="features">
+  <div class="container">
+    <div class="section-head">
+      <span class="num light">02</span>
+      <h2 data-i18n="features.h">숫자로 보는 성능</h2>
+    </div>
+    <div class="num-grid">
+      <div><b>99<i>%</i></b><span data-i18n="features.n1">박테리아 제거율</span></div>
+      <div><b>93<i>%</i></b><span data-i18n="features.n2">VOC 제거율</span></div>
+      <div><b>150<i>+</i></b><span data-i18n="features.n3">호환 식물</span></div>
+      <div><b>16<i>W</i></b><span data-i18n="features.n4">소비전력</span></div>
+      <div><b>2.7<i>L</i></b><span data-i18n="features.n5">물탱크 용량</span></div>
+      <div><b>4-6<i>주</i></b><span data-i18n="features.n6">자동급수 주기</span></div>
+      <div><b>30×25<i>cm</i></b><span data-i18n="features.n7">제품 크기</span></div>
+      <div><b>3<i>년</i></b><span data-i18n="features.n8">품질보증</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW TO USE - 6 STEPS -->
+<section class="section manual" id="manual">
+  <div class="container">
+    <div class="section-head">
+      <span class="num">03</span>
+      <h2 data-i18n="manual.h">사용 방법 — 6단계 가이드</h2>
+      <p data-i18n="manual.lead">설명서 6단계만 따르면 누구나 5분 안에 KORU ONE을 가동할 수 있습니다.</p>
+    </div>
+
+    <div class="steps-grid">
+
+      <!-- STEP 1 -->
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-img">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <!-- water drop and pot bottom -->
+            <path d="M70 130 L70 170 Q70 185 85 185 L115 185 Q130 185 130 170 L130 130 Z" fill="#c4956a"/>
+            <ellipse cx="100" cy="130" rx="30" ry="4" fill="#a87a52"/>
+            <rect x="60" y="80" width="80" height="55" fill="rgba(158,196,168,0.4)" stroke="#1a3325" stroke-width="1.5" rx="2"/>
+            <rect x="63" y="105" width="74" height="28" fill="rgba(100,150,200,0.5)"/>
+            <!-- water drops -->
+            <path d="M105 40 Q97 55 105 70 Q113 55 105 40 Z" fill="#5a9ee8"/>
+            <path d="M85 25 Q80 32 85 42 Q90 32 85 25 Z" fill="#5a9ee8" opacity="0.7"/>
+            <path d="M125 30 Q121 36 125 44 Q129 36 125 30 Z" fill="#5a9ee8" opacity="0.7"/>
+          </svg>
+        </div>
+        <h4 data-i18n="manual.s1h">물탱크 채우기</h4>
+        <p data-i18n="manual.s1p">본체 하단 투명 저수조에 2.7L의 정수를 채웁니다. 식물에 4-6주간 자동 공급됩니다.</p>
+      </div>
+
+      <!-- STEP 2 -->
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-img">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <rect x="60" y="60" width="80" height="100" fill="rgba(220,235,225,0.4)" stroke="#1a3325" stroke-width="1.5" rx="3"/>
+            <!-- nozzles -->
+            <rect x="75" y="95" width="50" height="15" fill="#fff" stroke="#1a3325" stroke-width="1.5"/>
+            <line x1="85" y1="110" x2="85" y2="125" stroke="#1a3325" stroke-width="1.5"/>
+            <line x1="100" y1="110" x2="100" y2="130" stroke="#1a3325" stroke-width="1.5"/>
+            <line x1="115" y1="110" x2="115" y2="125" stroke="#1a3325" stroke-width="1.5"/>
+            <!-- check circle -->
+            <circle cx="155" cy="55" r="18" fill="#2f7a4f"/>
+            <path d="M147 55 L153 61 L163 49" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h4 data-i18n="manual.s2h">노즐 · 심지 점검</h4>
+        <p data-i18n="manual.s2p">급수 노즐과 심지가 제 위치에 있는지 확인합니다. 식물 뿌리에 안정적으로 수분을 전달하는 핵심 구조입니다.</p>
+      </div>
+
+      <!-- STEP 3 -->
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-img">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <rect x="60" y="80" width="80" height="80" fill="rgba(220,235,225,0.4)" stroke="#1a3325" stroke-width="1.5" rx="3"/>
+            <!-- soil -->
+            <rect x="63" y="120" width="74" height="38" fill="#7a5538"/>
+            <ellipse cx="100" cy="120" rx="37" ry="4" fill="#6b4a30"/>
+            <!-- soil texture -->
+            <circle cx="78" cy="140" r="2" fill="#5a3a25"/>
+            <circle cx="100" cy="148" r="1.5" fill="#5a3a25"/>
+            <circle cx="120" cy="138" r="2" fill="#5a3a25"/>
+            <circle cx="90" cy="135" r="1.5" fill="#9a6a48"/>
+            <circle cx="115" cy="150" r="1.5" fill="#9a6a48"/>
+            <!-- pouring hand/bag -->
+            <path d="M45 30 Q40 50 50 65 L60 75 L70 65 Q75 50 65 35 Z" fill="#8b6f47" opacity="0.6"/>
+            <path d="M58 70 L60 80 L65 78 L67 70 Z" fill="#7a5538"/>
+          </svg>
+        </div>
+        <h4 data-i18n="manual.s3h">흙 채우기</h4>
+        <p data-i18n="manual.s3p">전용 식재 영역에 흙을 깔아 베이스를 만듭니다. 식물 크기에 따라 적절한 양을 채워주세요.</p>
+      </div>
+
+      <!-- STEP 4 -->
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-img">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <!-- phone -->
+            <rect x="55" y="40" width="60" height="110" rx="8" fill="#1a3325"/>
+            <rect x="60" y="55" width="50" height="80" fill="#9ec4a8"/>
+            <circle cx="85" cy="145" r="3" fill="#2a4335"/>
+            <!-- bluetooth waves -->
+            <path d="M125 60 Q140 80 125 100" stroke="#2f7a4f" stroke-width="2" fill="none"/>
+            <path d="M135 50 Q160 80 135 110" stroke="#2f7a4f" stroke-width="2" fill="none" opacity="0.6"/>
+            <path d="M145 40 Q180 80 145 120" stroke="#2f7a4f" stroke-width="2" fill="none" opacity="0.3"/>
+            <!-- KORU symbol on screen -->
+            <path d="M75 85 Q80 75 85 85 Q90 95 95 85 Q100 75 105 85" stroke="#fff" stroke-width="2" fill="none"/>
+            <text x="85" y="120" fill="#fff" font-size="10" font-family="Inter">KORU</text>
+          </svg>
+        </div>
+        <h4 data-i18n="manual.s4h">앱 연결</h4>
+        <p data-i18n="manual.s4p">KORU 전용 모바일 앱(iOS/Android)으로 본체와 페어링합니다. Wi-Fi 환경에서 자동 인식됩니다.</p>
+      </div>
+
+      <!-- STEP 5 -->
+      <div class="step">
+        <div class="step-num">5</div>
+        <div class="step-img">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <!-- phone with plant list -->
+            <rect x="55" y="30" width="90" height="140" rx="8" fill="#1a3325"/>
+            <rect x="60" y="50" width="80" height="110" fill="#fff"/>
+            <!-- list items -->
+            <rect x="65" y="55" width="70" height="20" fill="#eaf0e8" rx="2"/>
+            <text x="70" y="69" fill="#1a3325" font-size="9" font-family="Inter">Monstera</text>
+            <rect x="65" y="80" width="70" height="20" fill="#9ec4a8" rx="2"/>
+            <text x="70" y="94" fill="#fff" font-size="9" font-family="Inter">Sansevieria ✓</text>
+            <rect x="65" y="105" width="70" height="20" fill="#eaf0e8" rx="2"/>
+            <text x="70" y="119" fill="#1a3325" font-size="9" font-family="Inter">Ficus</text>
+            <rect x="65" y="130" width="70" height="20" fill="#eaf0e8" rx="2"/>
+            <text x="70" y="144" fill="#1a3325" font-size="9" font-family="Inter">+ 147 more</text>
+          </svg>
+        </div>
+        <h4 data-i18n="manual.s5h">식물 선택</h4>
+        <p data-i18n="manual.s5p">앱에서 키울 식물을 선택합니다. 150종 이상의 데이터베이스에서 종별 최적 환경이 자동 설정됩니다.</p>
+      </div>
+
+      <!-- STEP 6 -->
+      <div class="step">
+        <div class="step-num">6</div>
+        <div class="step-img">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <!-- pot with plant -->
+            <g>
+              <path d="M100 100 Q80 60 75 30 Q82 25 95 45 Q100 70 100 100 Z" fill="#3d6e4a"/>
+              <path d="M100 100 Q120 60 130 30 Q138 25 135 50 Q120 80 100 100 Z" fill="#4a8059"/>
+              <path d="M100 100 Q90 70 70 60 Q65 65 75 80 Q90 95 100 100 Z" fill="#5a9269"/>
+              <path d="M100 100 Q110 70 130 60 Q140 65 130 85 Q115 95 100 100 Z" fill="#3d6e4a"/>
+            </g>
+            <rect x="65" y="100" width="70" height="55" fill="rgba(220,235,225,0.5)" stroke="#1a3325" stroke-width="1.5" rx="2"/>
+            <ellipse cx="100" cy="105" rx="34" ry="3" fill="#6b4a30"/>
+            <rect x="68" y="105" width="64" height="15" fill="#7a5538"/>
+            <path d="M70 155 L130 155 Q140 155 140 165 L140 175 Q140 185 130 185 L70 185 Q60 185 60 175 L60 165 Q60 155 70 155 Z" fill="#c4956a"/>
+          </svg>
+        </div>
+        <h4 data-i18n="manual.s6h">식물 식재</h4>
+        <p data-i18n="manual.s6p">뿌리가 내부 림까지 닿도록 식물을 심고 흙을 부드럽게 다집니다. ⚠️ 급수 노즐을 덮지 마세요.</p>
+      </div>
+
+    </div>
+
+    <div class="manual-warning">
+      <strong data-i18n="manual.warn">⚠️ 주의사항</strong>
+      <span data-i18n="manual.warnText">급수 노즐을 흙으로 덮지 마세요. 자동 급수 시스템이 막힐 수 있습니다. 식물은 별도 구매가 필요합니다.</span>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARE -->
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="num">04</span>
+      <h2 data-i18n="cmp.h">일반 공기청정기와의 차이</h2>
+    </div>
+    <div class="cmp-wrap">
+      <table class="cmp">
+        <thead>
+          <tr>
+            <th data-i18n="cmp.item">비교 항목</th>
+            <th data-i18n="cmp.normal">일반 공기청정기</th>
+            <th data-i18n="cmp.koru">KORU ONE</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td data-i18n="cmp.r1">정화 방식</td><td>HEPA 필터</td><td class="hi" data-i18n="cmp.r1v">식물 + PCO + 활성탄 + UV</td></tr>
+          <tr><td data-i18n="cmp.r2">필터 교체</td><td data-i18n="cmp.r2a">6-12개월 (구독)</td><td class="hi" data-i18n="cmp.r2v">불필요 (세척만)</td></tr>
+          <tr><td data-i18n="cmp.r3">소음</td><td data-i18n="cmp.r3a">팬 소음 있음</td><td class="hi" data-i18n="cmp.r3v">매우 조용</td></tr>
+          <tr><td data-i18n="cmp.r4">소비전력</td><td>30-60W</td><td class="hi">16W</td></tr>
+          <tr><td data-i18n="cmp.r5">디자인</td><td data-i18n="cmp.r5a">가전제품</td><td class="hi" data-i18n="cmp.r5v">자연 오브제</td></tr>
+          <tr><td data-i18n="cmp.r6">식물 관리</td><td>—</td><td class="hi" data-i18n="cmp.r6v">AI 자동 관리</td></tr>
+          <tr><td data-i18n="cmp.r7">유지비 (3년)</td><td data-i18n="cmp.r7a">15-30만원</td><td class="hi" data-i18n="cmp.r7v">0원</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- SPECS -->
+<section class="section gray" id="specs">
+  <div class="container">
+    <div class="section-head">
+      <span class="num">05</span>
+      <h2 data-i18n="specs.h">제품 사양</h2>
+    </div>
+    <div class="specs-grid">
+      <table class="spec">
+        <tr><th data-i18n="specs.s1">제품명</th><td>KORU ONE</td></tr>
+        <tr><th data-i18n="specs.s2">크기</th><td>30 × 25 × 25 cm</td></tr>
+        <tr><th data-i18n="specs.s3">무게</th><td data-i18n="specs.s3v">2.5 kg (공차)</td></tr>
+        <tr><th data-i18n="specs.s4">화분 용량</th><td>3 L</td></tr>
+        <tr><th data-i18n="specs.s5">물탱크</th><td data-i18n="specs.s5v">2.7 L (4-6주 자동급수)</td></tr>
+        <tr><th data-i18n="specs.s6">소비전력</th><td data-i18n="specs.s6v">16 W (LED 전구 수준)</td></tr>
+        <tr><th data-i18n="specs.s7">정화 기술</th><td data-i18n="specs.s7v">PCO + 활성탄 + 무오존 UV</td></tr>
+        <tr><th data-i18n="specs.s8">필터</th><td data-i18n="specs.s8v">티타늄 나노코팅 세라믹 (영구사용)</td></tr>
+        <tr><th data-i18n="specs.s9">색상</th><td data-i18n="specs.s9v">화이트 / 블랙</td></tr>
+        <tr><th data-i18n="specs.s10">마감</th><td data-i18n="specs.s10v">코르크 (Cork)</td></tr>
+        <tr><th data-i18n="specs.s11">호환 식물</th><td data-i18n="specs.s11v">150종 이상</td></tr>
+        <tr><th data-i18n="specs.s12">스마트 기능</th><td data-i18n="specs.s12v">iOS · Android 전용 앱</td></tr>
+        <tr><th data-i18n="specs.s13">측정 센서</th><td data-i18n="specs.s13v">토양·빛·공기질·온도·습도</td></tr>
+        <tr><th data-i18n="specs.s14">소재</th><td data-i18n="specs.s14v">코르크 + 재활용 플라스틱</td></tr>
+        <tr><th data-i18n="specs.s15">보증</th><td data-i18n="specs.s15v">3년 품질보증</td></tr>
+        <tr><th data-i18n="specs.s16">원산지</th><td data-i18n="specs.s16v">EU 디자인 · 글로벌 생산</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- B2B INQUIRY -->
+<section class="section dark" id="inquiry">
+  <div class="container">
+    <div class="section-head center">
+      <span class="num light">06</span>
+      <h2 data-i18n="inq.h">B2B 도매 문의</h2>
+      <p data-i18n="inq.lead">최소 주문 수량(MOQ), 도매가, 납기 일정 등은 문의 시 협의해 드립니다.<br>800개 한정 재고이며, 매진 시 판매가 종료됩니다.</p>
+    </div>
+
+    <form id="inquiryForm" class="inq-form" onsubmit="submitInquiry(event)">
+      <div class="row">
+        <div class="form-group">
+          <label data-i18n="inq.f1">회사명 *</label>
+          <input type="text" id="company" required>
+        </div>
+        <div class="form-group">
+          <label data-i18n="inq.f2">사업자등록번호 *</label>
+          <input type="text" id="bizNumber" required placeholder="000-00-00000">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group">
+          <label data-i18n="inq.f3">담당자 성함 *</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+          <label data-i18n="inq.f4">직책</label>
+          <input type="text" id="position">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group">
+          <label data-i18n="inq.f5">연락처 *</label>
+          <input type="tel" id="phone" required placeholder="010-0000-0000">
+        </div>
+        <div class="form-group">
+          <label data-i18n="inq.f6">이메일 *</label>
+          <input type="email" id="email" required placeholder="contact@company.com">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group">
+          <label data-i18n="inq.f7">국가 / 지역 *</label>
+          <select id="country" required>
+            <option value="">— Select / 선택 / 选择 —</option>
+            <option value="KR">🇰🇷 Korea / 한국 / 韩国</option>
+            <option value="CN">🇨🇳 China / 중국 / 中国</option>
+            <option value="HK">🇭🇰 Hong Kong / 홍콩 / 香港</option>
+            <option value="JP">🇯🇵 Japan / 일본 / 日本</option>
+            <option value="US">🇺🇸 USA / 미국 / 美国</option>
+            <option value="OTHER">🌐 Other / 기타 / 其他</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label data-i18n="inq.f8">예상 주문 수량 *</label>
+          <select id="qty" required>
+            <option value="">— Select / 선택 / 选择 —</option>
+            <option value="10-50">10 - 50</option>
+            <option value="50-100">50 - 100</option>
+            <option value="100-300">100 - 300</option>
+            <option value="300-500">300 - 500</option>
+            <option value="500-800">500 - 800 (전체)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label data-i18n="inq.f9">유통 채널 / 비즈니스 형태</label>
+        <input type="text" id="channel" placeholder="예: 백화점 · 온라인몰 · 인테리어 매장 · 기업 선물 등">
+      </div>
+
+      <div class="form-group">
+        <label data-i18n="inq.f10">문의 내용 *</label>
+        <textarea id="message" required rows="5" placeholder="원하시는 색상, 납기, 결제 조건 등 자유롭게 작성해 주세요."></textarea>
+      </div>
+
+      <label class="check-row">
+        <input type="checkbox" id="agree" required>
+        <span data-i18n="inq.agree">개인정보 수집 · 이용에 동의합니다. (B2B 문의 응답 목적 외 사용하지 않습니다)</span>
+      </label>
+
+      <button type="submit" class="btn btn-light" data-i18n="inq.submit">문의 보내기</button>
+      <p class="form-note" data-i18n="inq.note">접수 후 1 영업일 이내 담당자가 회신드립니다.</p>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">
+          <span class="logo-mark small">K</span>
+          <span>KORU Korea</span>
+        </div>
+        <p data-i18n="footer.tag">B2B Wholesale Distribution<br>홍콩 직수입 · 800개 한정 재고</p>
+      </div>
+      <div>
+        <h5 data-i18n="footer.contact">CONTACT</h5>
+        <p>
+          <a href="mailto:lgt778@naver.com">lgt778@naver.com</a><br>
+          <span data-i18n="footer.hours">평일 09:00 - 18:00 (KST)</span>
+        </p>
+      </div>
+      <div>
+        <h5 data-i18n="footer.links">LINKS</h5>
+        <p>
+          <a href="#product" data-i18n="nav.product">Product</a><br>
+          <a href="#manual" data-i18n="nav.manual">How to Use</a><br>
+          <a href="#inquiry" data-i18n="nav.inquiry">B2B Inquiry</a><br>
+          <a href="https://plantkoru.com" target="_blank">Global · plantkoru.com</a>
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <small>© 2026 KORU Korea Distribution. All rights reserved.</small>
+    </div>
+  </div>
+</footer>
+
+</main>
+
+<!-- INQUIRY SUCCESS MODAL -->
+<div class="modal" id="successModal">
+  <div class="modal-content">
+    <div class="modal-ico">✅</div>
+    <h3 data-i18n="modal.h">문의가 접수되었습니다</h3>
+    <p data-i18n="modal.p">담당자가 1 영업일 이내 회신드립니다.<br>이메일과 연락처를 확인해 주세요.</p>
+    <button class="btn btn-primary" onclick="closeModal()" data-i18n="modal.close">확인</button>
+  </div>
+</div>
+
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
