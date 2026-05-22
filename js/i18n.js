@@ -340,6 +340,120 @@ const I18N = {
     "footer.contact": "联系方式",
     "footer.hours": "工作日 09:00 - 18:00 (KST)",
     "footer.links": "链接"
+  },
+
+  zhHant: {
+    "meta.title": "KORU ONE Korea — B2B 批發進口 · 自動澆水智能花盆",
+    "meta.desc": "KORU ONE 韓國官方 B2B 批發。自動澆水 + AI 空氣淨化花盆。香港直送,限量 800 台。",
+
+    "nav.product": "產品介紹",
+    "nav.features": "性能",
+    "nav.manual": "使用方法",
+    "nav.specs": "規格",
+    "nav.inquiry": "批發查詢",
+
+    "hero.tag": "K O R U   O N E   ·   K O R E A",
+    "hero.title1": "植物驅動的",
+    "hero.title2": "優雅空氣淨化器",
+    "hero.sub": "自動澆水智能花盆 + AI 空氣淨化系統<br>香港直接進口 B2B 批發 · 限量 800 台",
+    "hero.s1": "細菌去除率",
+    "hero.s2": "VOC 去除率",
+    "hero.s3": "兼容植物",
+    "hero.cta1": "批發查詢",
+    "hero.cta2": "查看使用方法",
+
+    "strip.s1": "香港直送", "strip.s1d": "3-7 個工作日",
+    "strip.s2": "僅限 B2B 批發", "strip.s2d": "起訂量可協商",
+    "strip.s3": "3 年保養", "strip.s3d": "正規進口",
+    "strip.s4": "限量 800 台", "strip.s4d": "售完即止",
+
+    "product.h": "自然與科技的交匯點",
+    "product.lead": "KORU ONE 將活體植物與光催化氧化(PCO)技術相結合,是新一代空氣淨化系統。與普通空氣淨化器不同,它完美兼具室內裝飾品的功能。",
+    "product.c1h": "自然友好的空氣淨化",
+    "product.c1p": "光催化氧化(PCO)+ 活性炭過濾器 + 植物自然淨化作用,去除 99% 細菌和 93% VOC。可分解 0.01 微米的顆粒。",
+    "product.c2h": "4-6 週自動澆水",
+    "product.c2p": "2.7L 大容量水箱。一次加水可為植物自動澆水 4-6 週。出差或度假無需擔心。",
+    "product.c3h": "智能 APP 監控",
+    "product.c3p": "5 種感應器即時監測土壤、光線、空氣質素、溫度和濕度。iOS/Android 專用 APP 根據植物種類自動管理。",
+    "product.c4h": "永久濾芯",
+    "product.c4p": "鈦納米塗層陶瓷泡沫濾芯,無需更換。每 2-3 個月用水清洗一次即可。零訂閱費、零更換費。",
+
+    "features.h": "數字看性能",
+    "features.n1": "細菌去除率",
+    "features.n2": "VOC 去除率",
+    "features.n3": "兼容植物",
+    "features.n4": "功耗",
+    "features.n5": "水箱容量",
+    "features.n6": "自動澆水週期",
+    "features.n7": "產品尺寸",
+    "features.n8": "保養",
+
+    "manual.h": "使用方法 — 6 步指南",
+    "manual.lead": "只需按照 6 步說明,任何人都可以在 5 分鐘內啟動 KORU ONE。",
+    "manual.s1h": "加水到水箱",
+    "manual.s1p": "在底部透明水箱中加入 2.7L 純淨水。可為植物自動供水 4-6 週。",
+    "manual.s2h": "檢查噴嘴和燈芯",
+    "manual.s2p": "確認澆水噴嘴和燈芯在正確位置。這是穩定向植物根部輸送水分的核心結構。",
+    "manual.s3h": "填土",
+    "manual.s3p": "在專用種植區域鋪土作為基礎。根據植物大小調整土量。",
+    "manual.s4h": "連接 APP",
+    "manual.s4p": "通過 KORU 專用流動應用程式 (iOS/Android) 與主機配對。在 Wi-Fi 環境下自動識別。",
+    "manual.s5h": "選擇植物",
+    "manual.s5p": "在 APP 中選擇要種植的植物。從 150 多種數據庫中自動設定每種植物的最佳環境。",
+    "manual.s6h": "種植植物",
+    "manual.s6p": "將植物種植到根部接觸內圈,輕輕壓實土壤。⚠️ 不要覆蓋澆水噴嘴。",
+    "manual.warn": "⚠️ 注意事項",
+    "manual.warnText": "不要用土覆蓋澆水噴嘴。自動澆水系統可能堵塞。植物需另行購買。",
+
+    "cmp.h": "與普通空氣淨化器的區別",
+    "cmp.item": "比較項目", "cmp.normal": "普通空氣淨化器", "cmp.koru": "KORU ONE",
+    "cmp.r1": "淨化方式", "cmp.r1v": "植物 + PCO + 活性炭 + UV",
+    "cmp.r2": "濾芯更換", "cmp.r2a": "6-12 個月 (訂閱)", "cmp.r2v": "不需要 (僅清洗)",
+    "cmp.r3": "噪音", "cmp.r3a": "有風扇噪音", "cmp.r3v": "非常安靜",
+    "cmp.r4": "功耗",
+    "cmp.r5": "設計", "cmp.r5a": "家電外觀", "cmp.r5v": "自然裝飾品",
+    "cmp.r6": "植物管理", "cmp.r6v": "AI 自動管理",
+    "cmp.r7": "維護費 (3 年)", "cmp.r7a": "HK$1,200-2,400", "cmp.r7v": "HK$0",
+
+    "specs.h": "產品規格",
+    "specs.s1": "產品名", "specs.s2": "尺寸", "specs.s3": "重量", "specs.s3v": "2.5 kg (空載)",
+    "specs.s4": "花盆容量", "specs.s5": "水箱", "specs.s5v": "2.7 L (4-6 週自動澆水)",
+    "specs.s6": "功耗", "specs.s6v": "16 W (LED 燈泡級)",
+    "specs.s7": "淨化技術", "specs.s7v": "PCO + 活性炭 + 無臭氧 UV",
+    "specs.s8": "濾芯", "specs.s8v": "鈦納米塗層陶瓷 (永久使用)",
+    "specs.s9": "顏色", "specs.s9v": "白色 / 黑色",
+    "specs.s10": "飾面", "specs.s10v": "軟木 (Cork)",
+    "specs.s11": "兼容植物", "specs.s11v": "150 種以上",
+    "specs.s12": "智能功能", "specs.s12v": "iOS · Android 專用 APP",
+    "specs.s13": "感應器", "specs.s13v": "土壤·光照·空氣·溫度·濕度",
+    "specs.s14": "材質", "specs.s14v": "軟木 + 再生塑膠",
+    "specs.s15": "保養", "specs.s15v": "3 年保養",
+    "specs.s16": "產地", "specs.s16v": "歐盟設計 · 全球生產",
+
+    "inq.h": "B2B 批發查詢",
+    "inq.lead": "起訂量(MOQ)、批發價、交付時間等可根據查詢協商。<br>限量 800 台,售完即止。",
+    "inq.f1": "公司名稱 *",
+    "inq.f2": "商業登記號 *",
+    "inq.f3": "聯絡人 *",
+    "inq.f4": "職位",
+    "inq.f5": "電話 *",
+    "inq.f6": "電郵 *",
+    "inq.f7": "國家 / 地區 *",
+    "inq.f8": "預計訂購數量 *",
+    "inq.f9": "分銷渠道 / 業務類型",
+    "inq.f10": "查詢內容 *",
+    "inq.agree": "本人同意收集及使用個人資料(僅用於 B2B 查詢回覆)。",
+    "inq.submit": "發送查詢",
+    "inq.note": "接收後 1 個工作天內回覆。",
+
+    "modal.h": "查詢已接收",
+    "modal.p": "負責人將於 1 個工作天內回覆。<br>請查閱您的電郵及電話。",
+    "modal.close": "確認",
+
+    "footer.tag": "B2B 批發分銷<br>香港直接進口 · 限量 800 台",
+    "footer.contact": "聯絡方式",
+    "footer.hours": "工作日 09:00 - 18:00 (KST)",
+    "footer.links": "連結"
   }
 };
 
@@ -374,7 +488,14 @@ function initLang() {
   let saved = localStorage.getItem('koru_lang');
   if (!saved) {
     const browser = (navigator.language || 'ko').toLowerCase();
-    if (browser.startsWith('zh')) saved = 'zh';
+    // 홍콩/대만/마카오/번체 → 번체 중국어
+    if (browser === 'zh-hk' || browser === 'zh-tw' || browser === 'zh-mo' ||
+        browser.includes('hant') || browser.startsWith('zh-hk') ||
+        browser.startsWith('zh-tw') || browser.startsWith('zh-mo')) {
+      saved = 'zhHant';
+    }
+    // 중국 본토/싱가포르/간체 → 간체 중국어
+    else if (browser.startsWith('zh')) saved = 'zh';
     else if (browser.startsWith('en')) saved = 'en';
     else saved = 'ko';
   }
