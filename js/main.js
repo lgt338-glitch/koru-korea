@@ -29,6 +29,23 @@ thumbs.forEach(t => {
   });
 });
 
+// 히어로 미니 썸네일 클릭
+const miniThumbs = document.querySelectorAll('.mini-thumb');
+const heroMain = document.getElementById('heroMain');
+miniThumbs.forEach(t => {
+  t.addEventListener('click', () => {
+    miniThumbs.forEach(x => x.classList.remove('active'));
+    t.classList.add('active');
+    if (heroMain) {
+      heroMain.style.opacity = '0';
+      setTimeout(() => {
+        heroMain.src = t.dataset.img;
+        heroMain.style.opacity = '1';
+      }, 200);
+    }
+  });
+});
+
 // 헤더 스크롤 효과
 const header = document.getElementById('siteHeader');
 window.addEventListener('scroll', () => {

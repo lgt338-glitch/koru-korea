@@ -84,6 +84,7 @@ const I18N = {
     "hero.s1": "박테리아 제거",
     "hero.s2": "VOC 제거",
     "hero.s3": "호환 식물",
+    "hero.live": "실제 제품",
     "hero.cta1": "도매 문의하기",
     "hero.cta2": "사용 방법 보기",
 
@@ -265,6 +266,7 @@ const I18N = {
     "hero.s1": "Bacteria removed",
     "hero.s2": "VOCs removed",
     "hero.s3": "Compatible plants",
+    "hero.live": "Real Product",
     "hero.cta1": "Send B2B Inquiry",
     "hero.cta2": "How to Use",
 
@@ -446,6 +448,7 @@ const I18N = {
     "hero.s1": "细菌去除率",
     "hero.s2": "VOC 去除率",
     "hero.s3": "兼容植物",
+    "hero.live": "实物",
     "hero.cta1": "批发咨询",
     "hero.cta2": "查看使用方法",
 
@@ -627,6 +630,7 @@ const I18N = {
     "hero.s1": "細菌去除率",
     "hero.s2": "VOC 去除率",
     "hero.s3": "兼容植物",
+    "hero.live": "實物",
     "hero.cta1": "批發查詢",
     "hero.cta2": "查看使用方法",
 
