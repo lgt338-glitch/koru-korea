@@ -12,6 +12,23 @@ if (navToggle && navMenu) {
   });
 }
 
+// 제품 쇼케이스 썸네일 클릭
+const thumbs = document.querySelectorAll('.thumb');
+const showcaseMain = document.getElementById('showcaseMain');
+thumbs.forEach(t => {
+  t.addEventListener('click', () => {
+    thumbs.forEach(x => x.classList.remove('active'));
+    t.classList.add('active');
+    if (showcaseMain) {
+      showcaseMain.style.opacity = '0';
+      setTimeout(() => {
+        showcaseMain.src = t.dataset.img;
+        showcaseMain.style.opacity = '1';
+      }, 200);
+    }
+  });
+});
+
 // 헤더 스크롤 효과
 const header = document.getElementById('siteHeader');
 window.addEventListener('scroll', () => {
